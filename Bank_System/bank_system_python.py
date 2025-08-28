@@ -15,7 +15,7 @@ def deposit_money():
       accounts[acc_num]+=amount
       print(f"Deposited {amount} in {accounts[acc_num]} successfully!!")
     else:
-       print("Accont doesnt exist")
+       print("Account doesnt exist")
 def withdraw():
    acc_num=input("Enter account number: ")
    if acc_num in accounts:
