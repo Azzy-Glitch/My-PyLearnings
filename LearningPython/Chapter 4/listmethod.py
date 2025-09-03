@@ -1,6 +1,6 @@
-friends = ["Apple", "Orange", 5, 345.06, False, "Aakash", "Rohan"]
+friends = ["Apple", "Orange", 5, 345.06, False, "Nokia", "Android"]
 print(friends)
-friends.append("Harry")
+friends.append("Azzy")
 print(friends)
 
 l1 = [1, 34,62, 2, 6, 11]
