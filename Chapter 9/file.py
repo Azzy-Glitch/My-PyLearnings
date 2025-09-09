@@ -1,0 +1,19 @@
+# Open a file in read mode
+
+str = '''Azzy was a curious and imaginative character, 
+always eager to explore the world around them.
+With a knack for solving puzzles and a love for storytelling,
+Azzy often found themselves at the center of exciting adventures.
+Whether it was deciphering ancient maps, unraveling mysteries, 
+or simply daydreaming about far-off lands, Azzy's enthusiasm was infectious.
+Friends admired Azzy's creativity and determination, knowing that with Azzy around,
+life was never dull.'''
+
+A = open("file.txt", "w")
+A.write(str)
+A.close()
+
+f = open("file.txt")
+data = f.read()
+print(data)
+f.close()
