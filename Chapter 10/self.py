@@ -9,15 +9,19 @@ class Employee:
 
 Azzy = Employee()
 Azzy.name = "Azzy"
+Azzy.position = "Data Scientist"  # Instance attribute overriding class attribute
+# print(Azzy.position)
 
 John = Employee()
 John.name = "John"
 John.salary = 80000  # Instance attribute overriding class attribute
+# print(John.salary)
 
 Glitch = Employee()
 Glitch.name = "Glitch"
 Glitch.salary = 100000
 Glitch.department = "HR"  # Instance attribute overriding class attribute
+# print(Glitch.department)
 
 # Employee.getinfo(Azzy)
 # Employee.getinfo(John)
