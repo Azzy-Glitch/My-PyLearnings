@@ -5,8 +5,12 @@ class Employee:
 
     def getinfo(self):
         print (f"{self.name}, {self.position}, {self.salary}, {self.department}")
-    
 
+    @staticmethod
+    def greet():
+        print("Hello, welcome to the company!")
+
+Employee.greet()
 Azzy = Employee()
 Azzy.name = "Azzy"
 Azzy.position = "Data Scientist"  # Instance attribute overriding class attribute
