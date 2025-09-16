@@ -26,4 +26,3 @@ Glitch = Employee("Glitch", 100000, "Software Engineer", "HR")
 Azzy.getinfo()
 John.getinfo()
 Glitch.getinfo()
-
