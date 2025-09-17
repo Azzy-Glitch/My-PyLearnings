@@ -7,5 +7,5 @@ class Programmer:
         print(self.name, self.salary, self.pin, self.company)
 
 
-p = Programmer("Azzy", 1200000, 245001)
-r = Programmer("Jazzy", 1000000, 245001)
+Azzy = Programmer("Azzy", 1200000, 245001)
+Jazzy = Programmer("Jazzy", 1000000, 245001)
