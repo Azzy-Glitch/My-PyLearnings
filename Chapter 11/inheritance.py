@@ -10,7 +10,7 @@ class Employee:
 class Programmer(Employee):
     company = "Infotech"
     def __init__(self, name, salary, language):
-        super().__init__(name, salary)  # call parent constructor
+        super().__init__(name, salary) # call parent constructor
         self.language = language
 
     def showLanguage(self):
