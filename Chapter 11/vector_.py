@@ -9,7 +9,7 @@ class Vector:
         return result
 
     def __mul__(self, other):
-        result = Vector(self.x * other.x + self.y * other.y + self.z * other.z)
+        result = self.x * other.x + self.y * other.y + self.z * other.z
         return result
 
     def __str__(self):
