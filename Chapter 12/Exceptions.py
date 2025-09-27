@@ -3,11 +3,10 @@ try:
     a = int(input("Hey, Enter a number: "))
     print(a)
 
-except ValueError as v:
-    print("Heyyyy")
-    print(v)
+except ValueError:
+    print("Invalid Input")
     
-except Exception as e:
-    print(e) 
+except Exception:
+    print("Some error occured") 
 
 print("Thank You")
