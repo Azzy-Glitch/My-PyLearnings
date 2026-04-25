@@ -1,8 +1,6 @@
 class Student:
     def __init__(self, name, roll, course):
-        self.name = name
-        self.roll = roll
-        self.course = course
+        self.std = (name, roll, course)
 
     @property
     def std(self):
@@ -50,10 +48,10 @@ def main():
         try:
             roll = int(input("Roll number: "))
         except ValueError:
-            print("Roll number must be an integer!")
+            print("Roll Number must be an integer!")
             continue
             
-        course = input("Course enrolled in: ").strip()
+        course = input("Course Enrolled in: ").strip()
         
         # Create student object
         student = Student(name, roll, course)
@@ -82,8 +80,10 @@ def read_students():
     except FileNotFoundError:
         print("No data.txt file found yet.")
 
+# s = Student("Ali", 101, "Computer Science")
+# print(s)
 
-if __name__ == "__main__":
-    main()
-    # Uncomment the line below if you want to read the file after saving
-    # read_students()
+# if __name__ == "__main__":
+#     main()
+#     # Uncomment the line below if you want to read the file after saving
+#     # read_students()
