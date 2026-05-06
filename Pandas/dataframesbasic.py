@@ -28,5 +28,3 @@ new_employee = pd.DataFrame([{"Names": "Frank", "Ages": 50, "Cities": "San Franc
 df = pd.concat([df, new_employee])  # Concatenate the new employee DataFrame with the existing DataFrame to add the new row
 
 print(df)  # Print the updated DataFrame with the new employee added
-
-
