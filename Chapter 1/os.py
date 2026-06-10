@@ -1,7 +1,7 @@
 import os
 
 # Select the directory whose content you want to list 
-directory_path = '/'
+directory_path = 'D:/BSCS-4C/SE'
 
 # Use the os module to list the directory content 
 contents = os.listdir(directory_path)
