@@ -1,6 +1,6 @@
 import pandas as pd  # Import the pandas library for data manipulation and analysis
 
-data = {"Names": ["Alice", "Bob", "Charlie", "David", "Eve"],  # Define a dictionary with names}
+data = {"Names": ["Alice", "Bob", "Charlie", "David", "Eve"],  # Define a dictionary with names
         "Ages": [25, 30, 35, 40, 45],  # Define a list of ages
         "Cities": ["New York", "Los Angeles", "Chicago", "Houston", "Phoenix"]}  # Define a list of cities
 

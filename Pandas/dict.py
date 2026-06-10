@@ -1,5 +1,9 @@
 import pandas as pd  # Import the pandas library for data manipulation and analysis
 
+# iloc is used for integer-based indexing, where you can access elements by their position in the Series or DataFrame. It uses zero-based indexing,
+# meaning the first element is accessed with index 0, the second with index 1, and so on.
+# loc is used for label-based indexing, where you can access elements by their labels or index names.
+# It allows you to access elements using the actual labels of the index,
 calories = {'Monday': 2000, 'Tuesday': 2200, 'Wednesday': 2100, 'Thursday': 2300, 'Friday': 2500}  # Define a dictionary with days of the week as keys and calorie intake as values
 
 series = pd.Series(calories)  # Create a pandas Series from the dictionary

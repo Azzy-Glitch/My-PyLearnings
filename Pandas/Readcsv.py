@@ -15,7 +15,7 @@ df = pd.read_csv('D:\\Git Repository\\My-PyLearnings\\Pandas\\data.csv', index_c
 #Selection by row
 # print(df.loc[0])  # Print the first row of the DataFrame using label-based indexing
 # print(df.iloc[0])  # Print the first row of the DataFrame using integer-based indexing
-# print(df.loc['Pikachu'])  # Print the row for 'Alice' using label-based indexing
+# print(df.loc['Pikachu'])  # Print the row for 'Pikachu' using label-based indexing
 # print(df.loc['Charizard'], ['Height, Weight'])  # Print the row for 'Charizard' using label-based indexing
 # print(df.loc['Charizard':'Pikachu', ['Height', 'Weight']])  # Print the 'Height' and 'Weight' for 'Charizard' using label-based indexing
 # print(df.iloc[0:11]) # Print the first 11 rows of the DataFrame using integer-based indexing
