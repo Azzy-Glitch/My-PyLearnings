@@ -22,10 +22,10 @@ print(df['Height'].max())  # Calculate and print the maximum value of the 'Heigh
 print(df['Weight'].max())  # Calculate and print the maximum value of the 'Weight' column in the DataFrame
 
 print(df.count())  # Calculate and print the count of non-null values in each column of the DataFrame
-print(df['Height'].count())  # Calculate and print the count of non-null values in
+print(df['Height'].count())  # Calculate and print the count of non-null values in the 'Height' column of the DataFrame
 print(df['Weight'].count())  # Calculate and print the count of non-null values in the 'Weight' column of the DataFrame
 
 group = df.groupby('Type 1')  # Group the DataFrame by the 'Type 1' column
-print(group['Height'].mean())  # Calculate and print the mean of the 'Height'
+print(group['Height'].mean())  # Calculate and print the mean of the 'Height' column for each group in the DataFrame
 print(group['Weight'].mean())  # Calculate and print the mean of the 'Weight' column for each group in the DataFrame
 

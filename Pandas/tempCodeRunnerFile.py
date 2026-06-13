@@ -1,0 +1,1 @@
+df = df.drop(columns=['type1', 'type2'], inplace=True) 
